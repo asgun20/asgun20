@@ -1,0 +1,231 @@
+body {
+    background-image: url(img/wheat.png);
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+}
+
+.contener1 {
+    margin: auto;
+    width: 800px;
+}
+
+.header {
+    background-color: rgb(18, 17, 20);
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-area {
+    margin: 30px;
+    margin-top: -15px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.left-area span {
+    color: #87cefa;
+}
+
+.logout-btn {
+    padding: 6px;
+    background-color: #87cefa ;
+    float: right;
+    margin-top: -120px;
+    margin-right: 40px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0,5s;
+    transition-property: background;
+}
+
+.logout-btn:hover {
+    background: #00905d;
+}
+
+.contener2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    background: #000;
+    padding-top: 10px;
+    left: 0;
+    width: 280px;
+    height: 100%;
+}
+
+.sidebar .foto {
+    width: 140px;
+    height: 140px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar h4{
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-weight: 800px;
+    text-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar a {
+    color: #fff;
+    display: block;
+    line-height: 90px;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0,5s;
+    transition-property: background;
+}
+
+.sidebar a:hover {
+    color: #00905d;
+}
+
+.sidebar i {
+    padding: 20px;
+    font-size: 90px;
+    font-weight: 400;
+}
+
+.content {
+    background-color: #00905d;
+    flex: 1;
+    display: flex;
+}
+.contener3 {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    width: 100%;
+}
+
+.profil {
+    padding: 5px 30px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000;
+}
+
+.content table td {
+    color: #fff;
+ 
+}
+
+td {
+    padding: 5px 30px;
+    font-size: 14px;
+    font-weight: 2px;
+}
+
+.pendidikan {
+    margin-top: 15px;
+    padding: 5px 30px;
+    font-size: 20px;
+    color: #fff;
+    background-color:  #000;
+}
+
+.lulus {
+    padding: 10px 30px;
+}
+.lulus h4 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: blue;
+}
+
+.lulus h5 {
+    margin: 2px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.seminar {
+    margin-top: 15px;
+    padding: 5px 30px;
+    font-size: 20px;
+    color: #fff;
+    height: 30px;
+    background-color:  #000;
+    
+}
+
+.pelatihan {
+    padding: 5px 30px;
+}
+
+.pelatihan h4 {
+    margin: 3px;
+    color: blue;
+}
+
+.pelatihan span {
+    margin-left: 10px;
+    color: #fff;
+}
+
+.mampu {
+    margin-top: 15px;
+    padding: 5px 30px;
+    font-size: 20px;
+    color: #fff;
+    background-color:  #000;
+}
+
+.ahli {
+    padding: 10px 30px;
+}
+.ahli h4 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: blue;
+}
+
+.ahli h5 {
+    margin: 2px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.hobby {
+    margin-top: 15px;
+    padding: 5px 30px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 100px;
+    height: 30px;
+    background-color:  #000;
+}
+
+.gemar {
+    padding: 5px 30px;
+}
+
+.gemar h5 {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer {
+    background-color: rgb(18, 17, 20);
+    padding: 3px;
+}
+
+.footer .copy {
+    font-size: 13px;
+    color: rgb(250, 246, 4);
+    text-align: center;
+
+}
